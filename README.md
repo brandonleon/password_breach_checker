@@ -1,4 +1,3 @@
-"""
 # Password Breach Checker
 
 This is a Python program that checks if a given password has been breached using the Pwned Passwords API.
