@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "password_breach_checker"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Leon <brandon.leon@servicenow.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+password_breach_checker = "password_breach_checker.main:main"
